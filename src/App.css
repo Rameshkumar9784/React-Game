@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(191, 31, 231);
+
+}
+.App{
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+#to-do-form input{
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+#to-do-form input::placeholder{
+  color: rgb(255, 255, 255,0.5);
+}
+#to-do-form input:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #ffffff;
+}
+#to-do-form button:focus{
+  outline: none;
+}
+.project-name{
+  background-color:#209111;
+  height: 50px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.project-name p{
+  margin: auto ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 11px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+}
+.developer{
+  background-color:#de4343;
+  height: 50px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 320px;
+}
+.developer p{
+  margin: auto ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 11px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+}
